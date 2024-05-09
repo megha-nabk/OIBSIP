@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .converter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .converter input[type="number"] {
+    padding: 10px;
+    margin-right: 10px;
+    width: 150px;
+  }
+  
+  .converter select {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .converter button {
+    padding: 10px 20px;
+    background-color: #0b98f7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #result {
+    text-align: center;
+    font-size: 20px;
+    color: #2569f2;
+  }
+  
